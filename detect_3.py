@@ -36,7 +36,7 @@ except:
 	print ("directory named as \"out\" exists")
 
 for p in pathlist:
-	if ("JPG" in p and "test" not in p ):		
+	if ("JPG" in p and "test" not in p ) or "jpg" in p:		
 		filename = p
 		img = cv2.imread(filename, -1)  
 		height, width = img.shape[:2]  
