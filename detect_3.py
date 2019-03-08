@@ -78,6 +78,7 @@ for p in pathlist:
 							print (filename,v[index:],file=fff)
 			if ok ==0 :
 				with open("error.log","a") as ff:
+					os.system("mv %s out"%filename) #linux		
 					print (filename,file=ff)
 		# os.system("DEL %s"%newfilename) #windows
 		os.system("rm %s"%newfilename) #linux
