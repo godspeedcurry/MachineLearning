@@ -67,6 +67,7 @@ for p in pathlist:
 					with open("get.txt","a") as gg:
 						print (k,v,file=gg)
 					# to modify
+					v = v.upper()
 					if "ZSTU" in v:  #主要改的就是这个
 					# if "CollectSN" in v or "CollectS" in v or "Collects" in v:
 						index = v.find("ZSTU")
