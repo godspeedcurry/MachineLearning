@@ -82,4 +82,4 @@ for p in pathlist:
 					os.system("mv %s out"%filename) #linux		
 					print (filename,file=ff)
 		# os.system("DEL %s"%newfilename) #windows
-		os.system("rm %s"%newfilename) #linux
+		os.system("rm %s"%newfilename) #linux  
